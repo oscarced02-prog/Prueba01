@@ -134,11 +134,11 @@
 
       // Simulación de lógica de envío
       if (review.estrellas >= 4) {
-        console.log("✅ Reseña pública:", review);
+        console.log("Reseña pública:", review);
         alert("¡Gracias! Serás redirigido a Google para compartir tu reseña pública.");
         window.location.href = "https://g.page/r/TU-LINK-DE-GOOGLE"; // <- reemplaza con tu link real
       } else {
-        console.log("🔒 Reseña privada:", review);
+        console.log("Reseña privada:", review);
         alert("Gracias por tu comentario, lo tomaremos en cuenta internamente.");
       }
     }
